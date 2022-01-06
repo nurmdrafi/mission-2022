@@ -1,6 +1,4 @@
-/*==========
-Global Rules
-==========*/
+/* Global Rules */
 /* Normal font-family: 'Poppins', sans-serif; */
 /* H1 title font-family: 'Libre Baskerville', serif; */
 /* Footer font-family: 'Dancing Script', cursive; */
@@ -17,17 +15,13 @@ Global Rules
 body {
   font-family: "Poppins", sans-serif;
 }
-/*=================
-Reuseable Component
-=================*/
+/* Reuseable Component */
 .container {
   max-width: 1480px;
   width: 80%;
   margin: 0 auto;
 }
-.half-width{
-width: 45%;
-}
+
 h1 {
   font-size: 50px;
   font-family: "Libre Baskerville", serif;
@@ -40,8 +34,16 @@ h2{
     margin: 30px 30px;
     
 }
-.button {
-  background-color: palevioletred;
+h3{
+    font-size: 30px;
+    
+}
+.color-pink{
+    color: #ea8685;
+}
+.btn {
+  background-color: #303952;
+  color: #ffffff;
   padding: 10px 10px;
   border-radius: 5px;
 }
@@ -52,11 +54,17 @@ h2{
   align-items: center;
   margin-top: 100px;
 }
+.hero-title{
+    width: 50%;
+}
 .hero-img {
   width: 400px;
   border-radius: 50%;
 }
 /* Card Section */
+#card{
+    margin-bottom: 50px ;
+}
 .card-items{
     display: flex;
     justify-content: space-between;
@@ -71,4 +79,20 @@ h2{
 }
 .card-items img{
     width: 150px;
+}
+/* Blog Section */
+#blog{
+    margin: 50px 50px;
+}
+
+.blog-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog-details{
+    width: 65%;
+}
+.blog-img img{
+    width: 350px;
 }
