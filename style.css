@@ -48,8 +48,14 @@ h5 {
 h5 span {
   color: #05fab8;
 }
-p{
-    text-align: justify;
+h6 {
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+p {
+  text-align: justify;
 }
 .span-color {
   color: #e3c5a5;
@@ -121,7 +127,6 @@ p{
 }
 /* Form Section */
 #form form {
-  
   width: 600px;
   height: 400px;
   margin: 0 auto;
@@ -140,9 +145,9 @@ input {
 input:focus {
   outline: none !important;
 }
-input::placeholder{
-    color: #b2b4b6;
-    letter-spacing: 2px;
+input::placeholder {
+  color: #b2b4b6;
+  letter-spacing: 2px;
 }
 textarea {
   width: 100%;
@@ -154,9 +159,9 @@ textarea {
 textarea:focus {
   outline: none !important;
 }
-textarea::placeholder{
-    color: #b2b4b6;
-    letter-spacing: 2px;
+textarea::placeholder {
+  color: #b2b4b6;
+  letter-spacing: 2px;
 }
 
 form .btn {
@@ -168,4 +173,3 @@ footer {
   text-align: center;
   color: #ffffff;
 }
-
