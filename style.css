@@ -8,8 +8,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  list-style-type: none;
-  outline: 0;
   text-decoration: none;
 }
 body {
@@ -23,29 +21,44 @@ body {
 }
 
 h1 {
-  font-size: 50px;
-  font-family: "Libre Baskerville", serif;
-  border-left: 5px solid red;
+  font-size: 55px;
+  font-weight: 800;
+  font-style: italic;
+  color: #2f3031;
+  border-left: 5px solid #05fab8;
   padding-left: 15px;
 }
-h2{
-    font-size: 40px;
-    text-align: center;
-    margin: 30px 30px;
-    
+h2 {
+  font-size: 45px;
+  font-style: italic;
+  color: #2f3031;
+  text-align: center;
+  margin: 30px 30px;
 }
-h3{
-    font-size: 30px;
-    
+h3 {
+  font-size: 35px;
+  color: #2f3031;
+  font-style: italic;
 }
-.color-pink{
-    color: #ea8685;
+h5 {
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+  padding: 30px;
+}
+h5 span {
+  color: #05fab8;
+}
+
+.span-color {
+  color: #e3c5a5;
 }
 .btn {
-  background-color: #303952;
-  color: #ffffff;
+  background-color: #05fab8;
+  color: #000000;
+  font-weight: 600;
   padding: 10px 10px;
   border-radius: 5px;
+  letter-spacing: 2px;
 }
 /* Hero Section */
 #hero {
@@ -54,45 +67,62 @@ h3{
   align-items: center;
   margin-top: 100px;
 }
-.hero-title{
-    width: 50%;
+.hero-title {
+  width: 50%;
 }
 .hero-img {
   width: 400px;
   border-radius: 50%;
 }
 /* Card Section */
-#card{
-    margin-bottom: 50px ;
+#card {
+  margin-bottom: 50px;
 }
-.card-items{
-    display: flex;
-    justify-content: space-between;
-    
+.card-items {
+  display: flex;
+  justify-content: space-between;
 }
-.card-items .items{
-    width: 31%;
-    height: auto;
-    padding: 20px;
-    background-color: pink;
-    border-radius: 20px;
+.card-items .items {
+  width: 31%;
+  height: auto;
+  padding: 20px;
+  background-color: pink;
+  border-radius: 20px;
 }
-.card-items img{
-    width: 150px;
+.items:nth-child(1){
+    background: #81ecec42;
+}
+.items:nth-child(2){
+    background: #ffeaa73f;
+}
+.items:nth-child(3){
+    background: #fab0a02c;
+}
+.card-items img {
+  width: 150px;
 }
 /* Blog Section */
-#blog{
-    margin: 50px 50px;
+#blog {
+  margin: 50px 50px;
 }
 
-.blog-items{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.blog-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.blog-details{
-    width: 65%;
+.blog-details {
+  width: 65%;
 }
-.blog-img img{
-    width: 350px;
+.blog-img img {
+  width: 350px;
+}
+/* Footer Section */
+footer {
+  background-color: #2f3031;
+  text-align: center;
+  color: #ffffff;
+}
+footer p {
+  padding-bottom: 40px;
 }
